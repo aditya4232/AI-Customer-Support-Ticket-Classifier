@@ -1,0 +1,129 @@
+ticket_id,ticket_text,industry,category,priority
+TKT000001,My internet is not working since yesterday,Telecom,Technical Support,High
+TKT000002,I was charged twice for my subscription,Telecom,Billing,Medium
+TKT000003,I forgot my password and cannot login,Telecom,Account Management,Medium
+TKT000004,I want to upgrade my plan,Telecom,Sales,Low
+TKT000005,I am unable to login even after entering the correct password.,Telecom,Account Management,High
+TKT000006,I did not receive the OTP while trying to login.,Telecom,Account Management,High
+TKT000007,I want to change my registered email address,Telecom,Account Management,Medium
+TKT000008,My profile details are incorrect and I am unable to edit them.,Telecom,Account Management,Medium
+TKT000009, I accidentally deleted my account. Can it be recovered?,Telecom,Account Management,High
+TKT000010,I am not receiving password reset emails.,Telecom,Account Management,High
+TKT000011,My account shows unauthorized login activity.,Telecom,Account Management,High
+TKT000012,I want to deactivate my account temporarily.,Telecom,Account Management,Low
+TKT000013,I am unable to update my phone number in account settings.,Telecom,Account Management,Medium
+TKT000014,My username is displaying incorrectly after login.,Telecom,Account Management,Medium
+TKT000015,I want to permanently delete my account.,Telecom,Account Management,Low
+TKT000016,I forgot both my username and password.,Telecom,Account Management,High
+TKT000017,My account got suspended without any explanation.,Telecom,Account Management,High
+TKT000018,I am unable to verify my email address.,Telecom,Account Management,Medium
+TKT000019,The account dashboard is not loading after login.,Telecom,Account Management,High
+TKT000020,I want to link my social media account but it is not working.,Telecom,Account Management,Medium
+TKT000021,My account preferences are getting reset automatically.,Telecom,Account Management,Medium
+TKT000022,I cannot log out from my account.,Telecom,Account Management,Medium
+TKT000023,I want to merge two of my accounts.,Telecom,Account Management,Low
+TKT000024,My account language settings are not updating.,Telecom,Account Management,Low
+TKT000025,I want to enable two-factor authentication.,Telecom,Account Management,Low
+TKT000026,I am stuck in a login loop after entering credentials.,Telecom,Account Management,High
+TKT000027,My account is showing another user's data.,Telecom,Account Management,High
+TKT000028,I cannot change my password even after verification.,Telecom,Account Management,High
+TKT000029,My account was hacked and the email was changed.,Telecom,Account Management,High
+TKT000030,I cannot access any websites on my connection,Telecom,Technical Support,High
+TKT000031,Network drops frequently during video calls,Telecom,Technical Support,High
+TKT000032,My modem is not turning on,Telecom,Technical Support,High
+TKT000033,Internet is working on phone but not on laptop,Telecom,Technical Support,Medium
+TKT000034,DNS error is showing while browsing,Telecom,Technical Support,Medium
+TKT000035,The connection becomes unstable at night,Telecom,Technical Support,Medium
+TKT000036,My LAN cable is connected but no internet,Telecom,Technical Support,High
+TKT000037,Router keeps restarting automatically,Telecom,Technical Support,High
+TKT000038,Internet stops working after some time,Telecom,Technical Support,High
+TKT000039,Unable to stream videos due to buffering,Telecom,Technical Support,Medium
+TKT000040,My device cannot detect the WiFi network,Telecom,Technical Support,High
+TKT000041,Frequent packet loss during gaming,Telecom,Technical Support,Medium
+TKT000042,Network shows connected but no internet access,Telecom,Technical Support,High
+TKT000043,Unable to join online meetings due to network issues,Telecom,Technical Support,High
+TKT000044,Slow upload speed affecting my work,Telecom,Technical Support,Medium
+TKT000045,Internet disconnects when multiple devices are connected,Telecom,Technical Support,Medium
+TKT000046,Router firmware update failed,Telecom,Technical Support,Low
+TKT000047,My broadband is not working since morning,Telecom,Technical Support,High
+TKT000048,Signal strength is very weak in my room,Telecom,Technical Support,Medium
+TKT000049,Internet connection drops during downloads,Telecom,Technical Support,Medium
+TKT000050,VPN is not connecting properly,Telecom,Technical Support,High
+TKT000051,Network latency is too high,Telecom,Technical Support,Medium
+TKT000052,Unable to reset my router settings,Telecom,Technical Support,Low
+TKT000053,I want to upgrade my current plan to premium.,Telecom,Sales / Plan Upgrade,Low
+TKT000054,Can you help me switch to the pro plan?,Telecom,Sales / Plan Upgrade,Low
+TKT000055,I am interested in upgrading my subscription.,Telecom,Sales / Plan Upgrade,Low
+TKT000056,How can I move from basic to premium plan?,Telecom,Sales / Plan Upgrade,Low
+TKT000057,Please upgrade my account to a higher plan.,Telecom,Sales / Plan Upgrade,Low
+TKT000058,I want to change my plan to premium immediately.,Telecom,Sales / Plan Upgrade,Low
+TKT000059,Can I upgrade my plan now and pay the difference?,Telecom,Sales / Plan Upgrade,Low
+TKT000060,What are the steps to upgrade my subscription?,Telecom,Sales / Plan Upgrade,Low
+TKT000061,"I need more features, how do I upgrade?",Telecom,Sales / Plan Upgrade,Low
+TKT000062,Is it possible to upgrade mid-subscription?,Telecom,Sales / Plan Upgrade,Low
+TKT000063,I want to move from free plan to paid plan.,Telecom,Sales / Plan Upgrade,Low
+TKT000064,Please guide me on upgrading to premium.,Telecom,Sales / Plan Upgrade,Low
+TKT000065,Can I upgrade without canceling my current plan?,Telecom,Sales / Plan Upgrade,Low
+TKT000066,I want to switch to an advanced package.,Telecom,Sales / Plan Upgrade,Low
+TKT000067,How do I upgrade to unlock premium features?,Telecom,Sales / Plan Upgrade,Low
+TKT000068,I am planning to upgrade my current subscription.,Telecom,Sales / Plan Upgrade,Low
+TKT000069,Can you explain how to upgrade my plan?,Telecom,Sales / Plan Upgrade,Low
+TKT000070,I want to upgrade and access more features.,Telecom,Sales / Plan Upgrade,Low
+TKT000071,What is the process to move to premium plan?,Telecom,Sales / Plan Upgrade,Low
+TKT000072,Please assist me in upgrading my account.,Telecom,Sales / Plan Upgrade,Low
+TKT000073,I want to upgrade for better service options.,Telecom,Sales / Plan Upgrade,Low
+TKT000074,How can I change my plan to a higher tier?,Telecom,Sales / Plan Upgrade,Low
+TKT000075,Can you upgrade my account to premium version?,Telecom,Sales / Plan Upgrade,Low
+TKT000076,I want to go for the premium package.,Telecom,Sales / Plan Upgrade,Low
+TKT000077,Please help me upgrade my subscription plan.,Telecom,Sales / Plan Upgrade,Low
+TKT000078,I was charged twice for my monthly subscription this month. Please check the billing and refund the extra amount.,Telecom,Billing,Medium
+TKT000079,I was billed for a service I never subscribed to.,Telecom,Billing,High
+TKT000080,My invoice shows an incorrect amount this month.,Telecom,Billing,Medium
+TKT000081,I have been overcharged on my last bill.,Telecom,Billing,High
+TKT000082,I need a refund for the duplicate transaction made yesterday.,Telecom,Billing,High
+TKT000083,Why is my bill higher than usual this month?,Telecom,Billing,Medium
+TKT000084,I was charged after I cancelled my subscription.,Telecom,Billing,High
+TKT000085,Please reverse the incorrect charge on my account.,Telecom,Billing,High
+TKT000086,"I did not authorize this payment, please refund immediately.",Telecom,Billing,High
+TKT000087,My account shows a payment failed but money was deducted.,Telecom,Billing,High
+TKT000088,I was charged twice for the same service on the same day.,Telecom,Billing,High
+TKT000089,The refund I requested last week has not been processed yet.,Telecom,Billing,Medium
+TKT000090,I am seeing an unknown charge on my billing statement.,Telecom,Billing,Medium
+TKT000091,Please send me the invoice for this month's payment.,Telecom,Billing,Low
+TKT000092,I need a detailed breakdown of my current bill.,Telecom,Billing,Low
+TKT000093,My payment was deducted but my account is still inactive.,Telecom,Billing,High
+TKT000094,I was charged the wrong plan rate this billing cycle.,Telecom,Billing,Medium
+TKT000095,I did not receive a receipt for my last payment.,Telecom,Billing,Low
+TKT000096,My autopay charged me even after I paused my subscription.,Telecom,Billing,High
+TKT000097,I have been waiting for my refund for over two weeks.,Telecom,Billing,Medium
+TKT000098,The amount deducted does not match the plan I chose.,Telecom,Billing,Medium
+TKT000099,I want to dispute an incorrect charge on my account.,Telecom,Billing,Medium
+TKT000100,Why was I charged a late fee when I paid on time?,Telecom,Billing,Medium
+TKT000101,"I was charged during my free trial period, please refund.",Telecom,Billing,High
+TKT000102,I need to update my billing information on file.,Telecom,Billing,Low
+TKT000103,My credit card was charged multiple times for one order.,Telecom,Billing,High
+TKT000104,I cancelled my plan but still got charged this month.,Telecom,Billing,High
+TKT000105,Please issue a corrected invoice with the right amount.,Telecom,Billing,Medium
+TKT000106,I was charged in the wrong currency for my subscription.,Telecom,Billing,Medium
+TKT000107,I have not received my cashback or billing credit yet.,Telecom,Billing,Medium
+TKT000108,I want a receipt for all payments made in the last 3 months.,Telecom,Billing,Low
+TKT000109,I am being charged for two separate subscriptions on the same number.,Telecom,Billing,High
+TKT000110,My card was charged but I did not receive any invoice for this month.,Telecom,Billing,Medium
+TKT000111,The amount debited this month is higher than my subscribed plan.,Telecom,Billing,High
+TKT000112,I was promised a discount but my bill shows the full amount.,Telecom,Billing,Medium
+TKT000113,My auto-debit failed but money was deducted from my bank account.,Telecom,Billing,High
+TKT000114,I have been billed for an add-on service that I never activated.,Telecom,Billing,High
+TKT000115,I am seeing roaming charges even though I did not travel abroad.,Telecom,Billing,High
+TKT000116,There is a late payment fee even though I paid before the due date.,Telecom,Billing,Medium
+TKT000117,My previous month refund is still not reflected in the current bill.,Telecom,Billing,Medium
+TKT000118,I changed my plan to a cheaper one but I am still billed at old rate.,Telecom,Billing,Medium
+TKT000119,I have been billed for international calls I never made.,Telecom,Billing,High
+TKT000120,The taxes on my bill seem higher than the standard rate.,Telecom,Billing,Medium
+TKT000121,My usage shows zero but I still received a high bill amount.,Telecom,Billing,Medium
+TKT000122,I was told the installation is free but I was charged a setup fee.,Telecom,Billing,Medium
+TKT000123,I paid my bill twice because the first payment status was pending.,Telecom,Billing,Medium
+TKT000124,My auto-pay was disabled but the system still deducted money.,Telecom,Billing,High
+TKT000125,I requested a bill in local currency but I was charged in USD.,Telecom,Billing,Medium
+TKT000126,I received SMS about outstanding dues but my bill shows zero balance.,Telecom,Billing,Low
+TKT000127,My account shows a negative balance even though I only prepaid once.,Telecom,Billing,Medium
+TKT000128,I need a detailed breakdown of all charges on my last invoice.,Telecom,Billing,Low

@@ -6,8 +6,7 @@ Supports TF-IDF based classification with Industry, Category, and Priority.
 import numpy as np
 from typing import Tuple, Dict, Any, Optional
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import LabelEncoder
 import joblib
@@ -26,12 +25,7 @@ class IndustryClassifier:
             sublinear_tf=True
         )
         
-        self.model = LogisticRegression(
-            max_iter=1000,
-            C=1.0,
-            class_weight='balanced',
-            random_state=42
-        )
+        self.model = MultinomialNB()
         
         self.industry_encoder = LabelEncoder()
     
@@ -96,12 +90,7 @@ class CategoryClassifier:
             sublinear_tf=True
         )
         
-        self.model = LogisticRegression(
-            max_iter=1000,
-            C=1.0,
-            class_weight='balanced',
-            random_state=42
-        )
+        self.model = MultinomialNB()
         
         pipeline = Pipeline([
             ('tfidf', self.vectorizer),
@@ -168,12 +157,7 @@ class PriorityClassifier:
             sublinear_tf=True
         )
         
-        self.model = RandomForestClassifier(
-            n_estimators=100,
-            max_depth=10,
-            random_state=42,
-            class_weight='balanced'
-        )
+        self.model = MultinomialNB()
         
         self.priority_encoder = LabelEncoder()
     
@@ -257,27 +241,7 @@ class TicketClassifier:
         category_result = self.category_classifier.predict_with_confidence(text)
         priority_result = self.priority_classifier.predict_priority(text)
 
-        text_lower = text.lower()
-        duplicate_billing_detected = (
-            any(term in text_lower for term in ['charged twice', 'double charge', 'duplicate charge', 'charged two times'])
-            and any(term in text_lower for term in ['subscription', 'billing', 'payment', 'refund'])
-        )
 
-        if duplicate_billing_detected:
-            category_result['category'] = 'Billing'
-            category_result['confidence'] = max(float(category_result['confidence']), 0.95)
-            category_result['all_probabilities']['Billing'] = max(
-                float(category_result['all_probabilities'].get('Billing', 0.0)),
-                0.95
-            )
-
-            if priority_result['priority'] == 'Low':
-                priority_result['priority'] = 'Medium'
-                priority_result['confidence'] = max(float(priority_result['confidence']), 0.75)
-                priority_result['all_probabilities']['Medium'] = max(
-                    float(priority_result['all_probabilities'].get('Medium', 0.0)),
-                    0.75
-                )
 
         return {
             'industry': industry_result['industry'],

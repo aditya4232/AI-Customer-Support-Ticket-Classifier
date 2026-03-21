@@ -90,12 +90,7 @@ class ReasoningExtractor:
         text_lower = text.lower()
 
         # Generate reasoning based on matched keywords and high-signal phrases
-        if (
-            ('charged twice' in text_lower or 'double charge' in text_lower or 'duplicate charge' in text_lower)
-            and ('subscription' in text_lower or 'billing' in text_lower or 'payment' in text_lower)
-        ):
-            return "Duplicate payment detected in subscription billing"
-        elif 'upgrade' in matched_keywords or 'premium' in matched_keywords or 'plan' in matched_keywords:
+        if 'upgrade' in matched_keywords or 'premium' in matched_keywords or 'plan' in matched_keywords:
             return "Customer requesting product upgrade information"
         elif 'error' in matched_keywords or 'bug' in matched_keywords or 'crash' in matched_keywords:
             return "Customer reporting technical issue or error"
