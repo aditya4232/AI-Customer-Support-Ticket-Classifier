@@ -1,9 +1,0 @@
-['Question ', 'Category', 'Priority']
-                                           Question   ... Priority
-0         My internet is not working since yesterday  ...     High
-1            I was charged twice for my subscription  ...   Medium
-2              I forgot my password and cannot login  ...   Medium
-3                          I want to upgrade my plan  ...      Low
-4  I am unable to login even after entering the c...  ...     High
-
-[5 rows x 3 columns]

@@ -1,50 +1,92 @@
-import os
-import uvicorn
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
-from fastapi.middleware.cors import CORSMiddleware
-from main import TicketClassificationSystem
+import streamlit as st
+import pandas as pd
+import pickle
+import re
 
-app = FastAPI(title="AI Customer Support Ticket Classifier API")
+# Page config
+st.set_page_config(page_title="Ticket Support AI", layout="wide")
 
-# Setup CORS
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# Load models efficiently
+@st.cache_resource
+def load_models():
+    with open("model.pkl", "rb") as f:
+        vectorizer, model_category, model_priority = pickle.load(f)
+    return vectorizer, model_category, model_priority
 
-# Initialize Classifier
-classifier_system = TicketClassificationSystem()
+vectorizer, model_category, model_priority = load_models()
 
-@app.on_event("startup")
-def load_model():
-    try:
-        classifier_system.load_model()
-    except Exception as e:
-        print("Model not loaded. Try running `python main.py --train` first.")
+# Load training data for analytics
+@st.cache_data
+def load_data():
+    df = pd.read_csv("telecom_cc.csv")
+    df.columns = ["text", "category", "priority"]
+    return df
 
-class TicketRequest(BaseModel):
-    ticket_text: str
+df = load_data()
 
-@app.post("/api/predict")
-def predict_ticket(request: TicketRequest):
-    if not request.ticket_text.strip():
-        raise HTTPException(status_code=400, detail="Ticket text cannot be empty.")
+def clean_text(text):
+    text = str(text).lower()
+    text = re.sub(r'[^a-z\s]', '', text)
+    return text
+
+def predict(text):
+    cleaned = clean_text(text)
+    X = vectorizer.transform([cleaned])
+
+    category = model_category.predict(X)[0]
+    priority = model_priority.predict(X)[0]
     
-    if not classifier_system.is_trained:
-        raise HTTPException(status_code=500, detail="Model is not trained yet.")
-        
-    try:
-        result = classifier_system.predict(request.ticket_text)
-        return {
-            "success": True,
-            "data": result
-        }
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+    # Calculate confidence / probability
+    cat_probs = model_category.predict_proba(X)[0]
+    prob = max(cat_probs)
 
-if __name__ == "__main__":
-    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
+    return category, priority, prob
+
+def get_rule_reason(category):
+    # Determine the strict reason offline without external AI
+    reasons = {
+        "Technical Support": "Internet connectivity or hardware issue affecting service usage.",
+        "Billing": "Duplicate payment detected or invoice discrepancy in subscription billing.",
+        "Account Management": "User unable to access account due to password or profile issue.",
+        "Sales / Plan Upgrade": "Customer requesting product upgrade or plan evaluation.",
+        "Sales": "Customer requesting product upgrade or sales information."
+    }
+    return reasons.get(category, "Standard inquiry assigned to the designated department.")
+
+# ----------------- UI -----------------
+st.title("🎫 Support Ticket Routing Engine")
+st.markdown("Automated ticket classification using Naive Bayes strictly trained on `telecom_cc.csv`.")
+st.divider()
+
+col1, col2 = st.columns([2, 1])
+
+with col1:
+    st.subheader("Submit a Ticket")
+    user_input = st.text_area("Describe the customer issue:", height=150, placeholder="e.g., I was charged twice for my monthly subscription this month...")
+
+    if st.button("Classify Ticket", type="primary"):
+        if user_input.strip() == "":
+            st.error("Please enter a valid ticket description.")
+        else:
+            category, priority, prob = predict(user_input)
+            reason = get_rule_reason(category)
+
+            st.success("Ticket Successfully Analyzed!")
+            
+            # Show interactive metrics
+            m1, m2, m3 = st.columns(3)
+            m1.metric("Category", category)
+            m2.metric("Priority", priority)
+            m3.metric("Confidence Score", f"{prob:.1%}")
+            
+            st.info(f"**System Routing Reason:** {reason}")
+
+with col2:
+    st.subheader("Training Data Insights")
+    st.markdown(f"**Total Historical Tickets:** {len(df)}")
+    
+    st.markdown("**Volume by Category:**")
+    st.bar_chart(df["category"].value_counts(), height=200)
+    
+    st.markdown("**Volume by Priority:**")
+    st.bar_chart(df["priority"].value_counts(), color="#ffaa00", height=200)
