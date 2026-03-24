@@ -1,0 +1,491 @@
+ticket_text,category,priority,reason
+What browsers are officially supported by your platform?,General Inquiry,Low,Browser compatibility support inquiry
+My discount code was applied but my account tier didn't change.,Account Management,High,Discount code applied without tier change
+This is the 2th time I'm contacting support for the same issue with no resolution.,Complaints & Escalations,High,Repeat contact for unresolved issue requiring escalation
+Why did my bill increase from $19.99 to $9.99 without notice?,Billing,High,Unexplained price increase on monthly bill
+The Slack search function returns no results for anything I type.,Technical Support,Low,Search feature returning empty results
+Please remove the old credit card and add a new one to my account.,Account Management,Medium,Payment method update on account
+My teammate's invitation email never arrived. Please resend.,Account Management,Low,Team invitation email not received by invitee
+Do you offer a free trial for the Plus plan before purchasing?,Sales / Plan Upgrade,Low,Free trial availability inquiry for paid plan
+Can I use internet offline without an internet connection?,General Inquiry,Medium,Offline functionality availability inquiry
+I want to add 50 more user seats to our current business account.,Sales / Plan Upgrade,Medium,Additional user seats requested for business plan
+The dark mode feature stopped working after I changed settings.,Technical Support,Low,Feature malfunction after user action
+The internet mobile app is stuck on the loading screen.,Technical Support,Low,Mobile app loading indefinitely
+I was given incorrect information by your support team about pricing.,Complaints & Escalations,Medium,Incorrect information provided by support agent
+I need to update my email address from oldemail@example.com to user.new@company.com.,Account Management,Medium,Email address update required on account
+I never received my invoice for August. Please resend it.,Billing,High,Missing invoice for billing period
+I need a verification letter confirming my account is active.,Account Management,Low,Account verification letter request
+The cloud storage mobile app is stuck on the loading screen.,Technical Support,Medium,Mobile app loading indefinitely
+I was charged for share which I never subscribed to.,Billing,High,Charge for unsubscribed service or feature
+I want to add 20 more user seats to our current business account.,Sales / Plan Upgrade,High,Additional user seats requested for business plan
+I'd like to upgrade from the Basic plan to the Enterprise plan. What's the cost?,Sales / Plan Upgrade,Medium,Customer inquiring about plan upgrade pricing
+Why did my bill increase from $9.99 to $99.99 without notice?,Billing,Medium,Unexplained price increase on monthly bill
+I'm getting SSL certificate errors when visiting platform site.,Technical Support,High,SSL/TLS certificate validation error
+I can't access my account after changing my phone number.,Account Management,Medium,Account inaccessible after phone number change
+My account's time zone setting keeps resetting to UTC.,Account Management,Low,Time zone setting not persisting on account
+I was promised a callback within 10 hours but no one called.,Complaints & Escalations,Medium,Promised callback not received in timeframe
+My account shows it's active but I can't access any features.,Account Management,High,Account active but features inaccessible
+The same issue keeps recurring every 15 weeks. Nothing is fixed permanently.,Complaints & Escalations,Low,Recurring issue with no permanent resolution
+This is the 4th time I'm contacting support for the same issue with no resolution.,Complaints & Escalations,High,Repeat contact for unresolved issue requiring escalation
+I need to deactivate notifications for just one specific project.,Account Management,Low,Project-specific notification deactivation request
+The Outlook dark mode setting resets every time I reopen the app.,Technical Support,High,User preference not persisting across sessions
+Where can I find the user manual for smart TV?,General Inquiry,Low,User manual or documentation request
+Push notifications from Teams stopped arriving on my phone.,Technical Support,Low,Push notification delivery failure
+I was charged for auto-save which I never subscribed to.,Billing,Medium,Charge for unsubscribed service or feature
+Can you tell me what additional features I get with the Enterprise plan?,Sales / Plan Upgrade,Medium,Feature comparison inquiry for higher tier plan
+I overpaid by $29.99 last month. Can I get a credit or refund?,Billing,High,Overpayment requiring credit or refund
+I want to upgrade my storage from 100 GB to 500 GB.,Sales / Plan Upgrade,High,Storage capacity upgrade request
+Can I get a quote for 3 enterprise licenses for our company?,Sales / Plan Upgrade,Medium,Enterprise license quote request
+How do I refer a friend and get the referral bonus?,General Inquiry,Low,Referral program process inquiry
+My Google sign-in option disappeared from the login page.,Account Management,Low,Third-party sign-in option missing from login
+What payment methods do you accept?,General Inquiry,Medium,Accepted payment methods inquiry
+I set up the account for my business but it's under my personal name.,Account Management,Low,Account name correction from personal to business
+Is streaming available in my country?,General Inquiry,Low,Service geographic availability inquiry
+The Outlook app crashes whenever I try to open a file. Running version 14.5.,Technical Support,High,Application crash preventing normal usage
+Streaming is showing error code ERR_001 on my router.,Technical Support,High,Error code blocking service access
+Your dashboard downtime cost me $19.99 in lost business this week.,Complaints & Escalations,High,Financial loss attributed to service downtime
+This is the 3rd time I'm contacting support for the same issue with no resolution.,Complaints & Escalations,Medium,Repeat contact for unresolved issue requiring escalation
+My webcam isn't recognized by Slack during video sessions.,Technical Support,High,Peripheral device not recognized by application
+Push notifications from your mobile app stopped arriving on my phone.,Technical Support,High,Push notification delivery failure
+Why did my bill increase from $9.99 to $19.99 without notice?,Billing,High,Unexplained price increase on monthly bill
+The early termination fee of $29.99 charged seems incorrect.,Billing,Low,Early termination fee dispute
+I can hear the other person but they can't hear me on Outlook.,Technical Support,High,One-way audio issue in communication app
+File uploads to cloud storage fail after reaching 50%.,Technical Support,High,Upload failure at specific completion threshold
+I want to add 2 more user seats to our current business account.,Sales / Plan Upgrade,Medium,Additional user seats requested for business plan
+I need to dispute a charge of $99.99 from January.,Billing,High,Billing dispute for specific charge
+My tablet won't turn on after the battery drained completely.,Technical Support,High,Device power failure after battery depletion
+We're a startup of 5 people. Which plan would you recommend?,Sales / Plan Upgrade,Low,Plan recommendation requested for small team
+What's the maximum file size I can upload to streaming?,General Inquiry,Low,File upload size limit inquiry
+Can I get a quote for 4 enterprise licenses for our company?,Sales / Plan Upgrade,Low,Enterprise license quote request
+Is VoIP available in my country?,General Inquiry,Low,Service geographic availability inquiry
+Do you have a mobile app for Android and iOS?,General Inquiry,Medium,Mobile app platform availability inquiry
+I need to remove a payment method that is no longer valid.,Account Management,Medium,Expired payment method removal from account
+What's the price difference between monthly and annual billing?,Sales / Plan Upgrade,High,Billing cycle pricing comparison requested
+Video calls on Safari keep freezing every few seconds.,Technical Support,Low,Video streaming quality issue
+My desktop PC microphone isn't working during Zoom calls.,Technical Support,High,Microphone not functional during calls
+I'm getting a 'Server unavailable' error every time I launch Gmail.,Technical Support,High,Recurring application error on launch
+My linked bank account needs to be updated in the system.,Account Management,Medium,Linked payment account update needed
+My account's custom domain setup isn't working correctly.,Account Management,High,Custom domain configuration issue on account
+Can I access my account from multiple countries while traveling?,General Inquiry,Medium,International access policy inquiry
+My webcam isn't recognized by Zoom during video sessions.,Technical Support,Medium,Peripheral device not recognized by application
+The platform mobile app is stuck on the loading screen.,Technical Support,Low,Mobile app loading indefinitely
+The currency on my invoice is wrong. I should be billed in CAD.,Billing,Medium,Incorrect billing currency on invoice
+Your portal downtime cost me $99.99 in lost business this week.,Complaints & Escalations,High,Financial loss attributed to service downtime
+I can't receive emails on Teams. Sending works fine.,Technical Support,High,Email receive-only failure
+Please help me set up account recovery options.,Account Management,Medium,Account recovery options configuration needed
+I want to change my account type from personal to business.,Account Management,Low,Account type conversion from personal to business
+Video calls on your mobile app keep freezing every few seconds.,Technical Support,High,Video streaming quality issue
+The ticket I raised 10 days ago was closed without any resolution.,Complaints & Escalations,High,Support ticket closed without resolution
+How many devices can I use with a single account?,General Inquiry,Medium,Multi-device usage policy inquiry
+I've sent 50 emails with no response in 7 days. This is unacceptable.,Complaints & Escalations,High,Multiple unanswered support communications
+My smart speaker microphone isn't working during calls.,Technical Support,High,Microphone not functional during calls
+I'm getting a 'Token expired' error every time I launch Slack.,Technical Support,High,Recurring application error on launch
+Cloud storage is showing error code 404 on my laptop.,Technical Support,Low,Error code blocking service access
+My refund of $49.99 was promised 30 days ago but hasn't arrived.,Billing,Low,Delayed refund not received in expected timeframe
+The payment receipt I received shows the wrong billing address.,Billing,Medium,Incorrect address on payment receipt
+I need to add the extra storage add-on to my existing subscription.,Sales / Plan Upgrade,Low,Add-on feature purchase request
+Does the Business plan include notifications? I need it for my workflow.,Sales / Plan Upgrade,Medium,Feature availability inquiry before plan decision
+My account was created with the wrong country/region setting.,Account Management,High,Incorrect country or region on account profile
+We need custom SLA terms. Is that available on enterprise plans?,Sales / Plan Upgrade,Low,Custom SLA terms inquiry for enterprise tier
+Why did my bill increase from $19.99 to $149.99 without notice?,Billing,Low,Unexplained price increase on monthly bill
+I need to unlock my account after multiple failed 2FA attempts.,Account Management,High,Account locked after failed 2FA attempts
+I need an itemized breakdown of my $99.99 invoice from January.,Billing,Low,Itemized invoice breakdown requested
+My bill shows $99.99 but my plan is only $9.99 per month.,Billing,Low,Bill amount exceeds contracted plan price
+My VoIP router shows connected but no pages load.,Technical Support,Medium,Connected status with no actual internet access
+The currency on my invoice is wrong. I should be billed in AUD.,Billing,Medium,Incorrect billing currency on invoice
+My bill increase from $9.99 to $29.99 appeared without notice.,Billing,Medium,Unexplained price increase on monthly bill
+The early termination fee of $19.99 charged seems incorrect.,Billing,Medium,Early termination fee dispute
+I've been waiting 5 days for a resolution and no one has followed up.,Complaints & Escalations,Medium,Extended wait time with no follow-up on ticket
+This is the 15th time I'm contacting support for the same issue with no resolution.,Complaints & Escalations,High,Repeat contact for unresolved issue requiring escalation
+The dashboard desktop app won't install on Windows 10.,Technical Support,High,Software installation failure on specific OS version
+My router's red light keeps blinking. No internet access.,Technical Support,High,Router status light indicating connectivity issue
+My username was changed without my permission.,Account Management,Low,Unauthorized username change on account
+I need help linking my old account to my new Google account.,Account Management,Medium,Account linking to new Google login requested
+The email verification link I received has already expired.,Account Management,Medium,Expired email verification link issue
+I can hear the other person but they can't hear me on Teams.,Technical Support,Medium,One-way audio issue in communication app
+My bill shows $49.99 but my plan is only $14.99 per month.,Billing,High,Bill amount exceeds contracted plan price
+We're a startup of 4 people. Which plan would you recommend?,Sales / Plan Upgrade,Low,Plan recommendation requested for small team
+I was charged $29.99 twice this month. Please refund the extra amount.,Billing,High,Duplicate charge detected on account
+I've sent 20 emails with no response in 3 days. This is unacceptable.,Complaints & Escalations,High,Multiple unanswered support communications
+Video calls on the desktop client keep freezing every few seconds.,Technical Support,Low,Video streaming quality issue
+Can I use platform offline without an internet connection?,General Inquiry,Medium,Offline functionality availability inquiry
+Can I use VPN offline without an internet connection?,General Inquiry,Low,Offline functionality availability inquiry
+I never received my invoice for January. Please resend it.,Billing,High,Missing invoice for billing period
+We're a startup of 50 people. Which plan would you recommend?,Sales / Plan Upgrade,High,Plan recommendation requested for small team
+The same issue keeps recurring every 30 weeks. Nothing is fixed permanently.,Complaints & Escalations,High,Recurring issue with no permanent resolution
+I see a charge labeled 'PLATFORM-LEVY' that I don't recognize.,Billing,Medium,Unidentifiable line item on invoice
+My saved preferences and bookmarks disappeared after I logged in.,Account Management,Low,Saved preferences lost after login session
+I want to merge two accounts under the same email.,Account Management,High,Account consolidation request
+My refund of $29.99 was promised 7 days ago but hasn't arrived.,Billing,High,Delayed refund not received in expected timeframe
+I can't share my screen on Chrome. The option is missing.,Technical Support,High,Screen share feature missing from application
+I need to update my billing address on the account.,Account Management,Medium,Billing address update required
+What's the maximum file size I can upload to portal?,General Inquiry,Medium,File upload size limit inquiry
+There's an unknown charge of $149.99 on my account this month.,Billing,High,Unrecognized charge requiring investigation
+The Firefox search function returns no results for anything I type.,Technical Support,Medium,Search feature returning empty results
+I want to grant read-only access to my account for my accountant.,Account Management,Medium,Read-only access grant request for third party
+I set up set-top box but it won't appear in the Safari dashboard.,Technical Support,Medium,Device not detected after setup
+I need to export my account activity log for the past year.,Account Management,High,Annual account activity log export request
+I was charged for dark mode which I never subscribed to.,Billing,Medium,Charge for unsubscribed service or feature
+I can hear the other person but they can't hear me on the desktop client.,Technical Support,High,One-way audio issue in communication app
+My desktop PC isn't syncing with platform cloud storage.,Technical Support,High,Cloud sync failure between device and service
+The same issue keeps recurring every 3 weeks. Nothing is fixed permanently.,Complaints & Escalations,High,Recurring issue with no permanent resolution
+The currency on my invoice is wrong. I should be billed in EUR.,Billing,High,Incorrect billing currency on invoice
+My refund of $9.99 was promised 14 days ago but hasn't arrived.,Billing,High,Delayed refund not received in expected timeframe
+My account permissions were changed without my approval.,Account Management,High,Unauthorized permission change on account
+My router's orange light keeps blinking. No internet access.,Technical Support,Medium,Router status light indicating connectivity issue
+Is platform available in my country?,General Inquiry,Low,Service geographic availability inquiry
+Video calls on Outlook keep freezing every few seconds.,Technical Support,Medium,Video streaming quality issue
+My corporate discount isn't showing on the latest invoice.,Billing,Medium,Corporate discount not applied to billing
+My linked social login stopped working after I changed my password.,Account Management,Medium,Social login broken after password change
+We're a startup of 15 people. Which plan would you recommend?,Sales / Plan Upgrade,Low,Plan recommendation requested for small team
+I can't change my username because it says it's already taken by me.,Account Management,Medium,Username change blocked due to system conflict
+I can't find where to update my mailing address in the settings.,Account Management,Medium,Mailing address update location assistance needed
+Can I downgrade from Basic to Premium without losing my data?,Sales / Plan Upgrade,Low,Plan downgrade inquiry with data retention concern
+My account shows last login from a device I don't recognize.,Account Management,Low,Unrecognized device in login history
+I never received my invoice for May. Please resend it.,Billing,High,Missing invoice for billing period
+My bill is showing taxes I shouldn't be charged based on my location.,Billing,Medium,Incorrect tax applied to billing
+Can I downgrade from Professional to Premium without losing my data?,Sales / Plan Upgrade,Medium,Plan downgrade inquiry with data retention concern
+Do you offer a free trial for the Enterprise plan before purchasing?,Sales / Plan Upgrade,Low,Free trial availability inquiry for paid plan
+Can I downgrade from Standard to Business without losing my data?,Sales / Plan Upgrade,Medium,Plan downgrade inquiry with data retention concern
+Why did my bill increase from $19.99 to $29.99 without notice?,Billing,Low,Unexplained price increase on monthly bill
+I want to upgrade my storage from 200 GB to 1000 GB.,Sales / Plan Upgrade,Low,Storage capacity upgrade request
+I see a charge labeled 'ADDON-CHARGE' that I don't recognize.,Billing,Medium,Unidentifiable line item on invoice
+The account recovery codes I saved are not working.,Account Management,Low,Account recovery codes not functioning
+We're a startup of 20 people. Which plan would you recommend?,Sales / Plan Upgrade,Low,Plan recommendation requested for small team
+My team members can't see the shared folders I set up.,Account Management,High,Shared folder visibility issue for team members
+My modem microphone isn't working during your mobile app calls.,Technical Support,High,Microphone not functional during calls
+I was promised a callback within 3 hours but no one called.,Complaints & Escalations,Medium,Promised callback not received in timeframe
+I can hear the other person but they can't hear me on Slack.,Technical Support,High,One-way audio issue in communication app
+Push notifications from Slack stopped arriving on my phone.,Technical Support,High,Push notification delivery failure
+My smart speaker is extremely slow after the latest OS update.,Technical Support,High,Performance degradation post-update
+I've sent 4 emails with no response in 5 days. This is unacceptable.,Complaints & Escalations,Medium,Multiple unanswered support communications
+My account dashboard is showing data from another user.,Account Management,Medium,Incorrect user data displayed on dashboard
+Where can I find the user manual for smart speaker?,General Inquiry,Medium,User manual or documentation request
+My credit balance of $29.99 hasn't been applied to this month's bill.,Billing,Medium,Existing credit not applied to invoice
+Where can I find the user manual for desktop PC?,General Inquiry,Medium,User manual or documentation request
+The same issue keeps recurring every 2 weeks. Nothing is fixed permanently.,Complaints & Escalations,High,Recurring issue with no permanent resolution
+Why did my bill increase from $29.99 to $49.99 without notice?,Billing,High,Unexplained price increase on monthly bill
+My credit balance of $19.99 hasn't been applied to this month's bill.,Billing,Low,Existing credit not applied to invoice
+I forgot the answer to my security question and can't log in.,Account Management,Low,Security question answer forgotten preventing login
+I've been waiting 10 days for a resolution and no one has followed up.,Complaints & Escalations,High,Extended wait time with no follow-up on ticket
+Where can I find the user manual for laptop?,General Inquiry,Low,User manual or documentation request
+I need to add a secondary email address to my account.,Account Management,Low,Secondary email addition requested
+I cancelled my subscription 5 days ago but was still charged.,Billing,Medium,Charge applied after cancellation
+VoIP is showing error code ERR_404 on my tablet.,Technical Support,High,Error code blocking service access
+How long does it take to process a new account application?,General Inquiry,Low,Account application processing time inquiry
+I need to update the company tax ID associated with my account.,Account Management,Low,Company tax ID update on account required
+I need receipts for the past 10 months for expense reporting.,Billing,Medium,Historical receipts required for accounting
+The early termination fee of $9.99 charged seems incorrect.,Billing,Low,Early termination fee dispute
+I need to enable API access for my developer account.,Account Management,Low,API access activation for developer account
+What's the volume discount for 2+ licenses for our organization?,Sales / Plan Upgrade,High,Volume licensing discount inquiry
+My account was flagged for suspicious activity erroneously.,Account Management,Low,Erroneous suspicious activity flag on account
+Do you offer any student discounts for your services?,General Inquiry,Low,Student discount availability inquiry
+I never received my invoice for July. Please resend it.,Billing,Low,Missing invoice for billing period
+I switched plans mid-month but was charged full price for both plans.,Billing,High,Prorated billing not applied during plan switch
+My profile shows incorrect location data I never entered.,Account Management,Medium,Incorrect location data on account profile
+My desktop PC is extremely slow after the latest OS update.,Technical Support,High,Performance degradation post-update
+We want to switch from a competitor. Do you offer migration support?,Sales / Plan Upgrade,Medium,Competitor migration inquiry with support request
+Is there an educational or non-profit discount available?,Sales / Plan Upgrade,Medium,Discounted pricing eligibility inquiry
+My desktop PC microphone isn't working during Teams calls.,Technical Support,High,Microphone not functional during calls
+Does the Enterprise plan include share? I need it for my workflow.,Sales / Plan Upgrade,Low,Feature availability inquiry before plan decision
+The sync feature stopped working after I reinstalled the app.,Technical Support,High,Feature malfunction after user action
+How do I export all my data from the platform?,General Inquiry,Low,Data export process inquiry
+I've sent 10 emails with no response in 7 days. This is unacceptable.,Complaints & Escalations,Medium,Multiple unanswered support communications
+I've sent 50 emails with no response in 5 days. This is unacceptable.,Complaints & Escalations,High,Multiple unanswered support communications
+I need an itemized breakdown of my $49.99 invoice from July.,Billing,Medium,Itemized invoice breakdown requested
+I was charged $49.99 twice this month. Please refund the extra amount.,Billing,Medium,Duplicate charge detected on account
+I overpaid by $19.99 last month. Can I get a credit or refund?,Billing,Medium,Overpayment requiring credit or refund
+My account is locked and I'm not receiving the unlock email.,Account Management,High,Account unlock email not being received
+I need receipts for the past 15 months for expense reporting.,Billing,Medium,Historical receipts required for accounting
+I was given incorrect information by your support team about cancellation policy.,Complaints & Escalations,Medium,Incorrect information provided by support agent
+We need white-label options. Does your enterprise plan include that?,Sales / Plan Upgrade,Medium,White-label feature inquiry for enterprise use
+Video calls on Chrome keep freezing every few seconds.,Technical Support,High,Video streaming quality issue
+My set-top box is extremely slow after the latest OS update.,Technical Support,Medium,Performance degradation post-update
+My set-top box isn't syncing with email cloud storage.,Technical Support,Medium,Cloud sync failure between device and service
+I was promised a callback within 5 hours but no one called.,Complaints & Escalations,Medium,Promised callback not received in timeframe
+What's the volume discount for 15+ licenses for our organization?,Sales / Plan Upgrade,Medium,Volume licensing discount inquiry
+I overpaid by $9.99 last month. Can I get a credit or refund?,Billing,High,Overpayment requiring credit or refund
+My smart TV is extremely slow after the latest firmware update.,Technical Support,High,Performance degradation post-update
+Where can I find the user manual for router?,General Inquiry,High,User manual or documentation request
+Your VPN downtime cost me $19.99 in lost business this week.,Complaints & Escalations,High,Financial loss attributed to service downtime
+I see a charge labeled 'SVC-FEE-001' that I don't recognize.,Billing,Low,Unidentifiable line item on invoice
+Please deactivate my account temporarily while I'm traveling.,Account Management,Low,Temporary account deactivation requested
+Can you tell me what additional features I get with the Plus plan?,Sales / Plan Upgrade,Low,Feature comparison inquiry for higher tier plan
+The ticket I raised 3 days ago was closed without any resolution.,Complaints & Escalations,Low,Support ticket closed without resolution
+I need an itemized breakdown of my $9.99 invoice from July.,Billing,High,Itemized invoice breakdown requested
+How do I submit a feature request or product feedback?,General Inquiry,Low,Feature request submission process inquiry
+I need to update my email address from user.old@company.com to newemail@example.com.,Account Management,High,Email address update required on account
+I need an itemized breakdown of my $49.99 invoice from February.,Billing,Low,Itemized invoice breakdown requested
+I want a formal written apology and compensation for this inconvenience.,Complaints & Escalations,High,Formal apology and compensation demand
+My annual plan was renewed but I requested cancellation last month.,Billing,Medium,Unwanted annual plan auto-renewal
+The Zoom dark mode setting resets every time I reopen the app.,Technical Support,High,User preference not persisting across sessions
+Do you offer a free trial for the Premium plan before purchasing?,Sales / Plan Upgrade,Low,Free trial availability inquiry for paid plan
+I overpaid by $149.99 last month. Can I get a credit or refund?,Billing,High,Overpayment requiring credit or refund
+Can you tell me what additional features I get with the Professional plan?,Sales / Plan Upgrade,Low,Feature comparison inquiry for higher tier plan
+I was promised a callback within 15 hours but no one called.,Complaints & Escalations,High,Promised callback not received in timeframe
+My account is showing an old profile picture I deleted months ago.,Account Management,High,Outdated profile picture persisting on account
+This is the 10th time I'm contacting support for the same issue with no resolution.,Complaints & Escalations,High,Repeat contact for unresolved issue requiring escalation
+Can I downgrade from Starter to Professional without losing my data?,Sales / Plan Upgrade,High,Plan downgrade inquiry with data retention concern
+Your service has been down for 10 hours and nobody is communicating.,Complaints & Escalations,High,Prolonged outage with no communication from provider
+I accidentally deleted my account. Can it be restored?,Account Management,Low,Accidental account deletion recovery request
+The share button is greyed out and unclickable in your mobile app.,Technical Support,High,UI element unresponsive in application
+I've been waiting 14 days for a resolution and no one has followed up.,Complaints & Escalations,High,Extended wait time with no follow-up on ticket
+Does the premium plan support integration with Trello?,Sales / Plan Upgrade,Low,Third-party integration availability inquiry
+My account got banned while I was on vacation. I don't know why.,Account Management,High,Account ban occurring during user absence
+I need an itemized breakdown of my $99.99 invoice from July.,Billing,Medium,Itemized invoice breakdown requested
+I need to dispute a charge of $149.99 from April.,Billing,High,Billing dispute for specific charge
+I want to gift a subscription to a colleague. Is that possible?,Sales / Plan Upgrade,Low,Subscription gifting option inquiry
+Does the premium plan support integration with Slack?,Sales / Plan Upgrade,Low,Third-party integration availability inquiry
+Please help me reactivate my account that was closed last year.,Account Management,Medium,Closed account reactivation request
+My profile picture won't update. It keeps reverting to the old one.,Account Management,Low,Profile photo update not persisting
+My security questions are no longer recognized by the system.,Account Management,Medium,Security questions not accepted by system
+File uploads to email fail after reaching 50%.,Technical Support,High,Upload failure at specific completion threshold
+Please help me verify my identity to regain access to my account.,Account Management,High,Identity verification needed for account access
+I'm trying to delete my account but can't find the option.,Account Management,Low,Account deletion option not accessible
+I want to add 4 more user seats to our current business account.,Sales / Plan Upgrade,Low,Additional user seats requested for business plan
+The ticket I raised 14 days ago was closed without any resolution.,Complaints & Escalations,Medium,Support ticket closed without resolution
+Can I get a quote for 10 enterprise licenses for our company?,Sales / Plan Upgrade,Medium,Enterprise license quote request
+My account's API key was compromised. Please rotate it.,Account Management,High,Compromised API key rotation request
+I need to transfer my account to a different team member.,Account Management,Medium,Account ownership transfer request
+Someone is using my account from a different country. Please help.,Account Management,Low,Unauthorized access from foreign location detected
+The ticket I raised 7 days ago was closed without any resolution.,Complaints & Escalations,High,Support ticket closed without resolution
+There's an unknown charge of $19.99 on my account this month.,Billing,High,Unrecognized charge requiring investigation
+The mobile app dark mode setting resets every time I reopen it.,Technical Support,High,User preference not persisting across sessions
+I need an itemized breakdown of my $149.99 invoice from January.,Billing,Medium,Itemized invoice breakdown requested
+I see a charge labeled 'OVERAGE-FEE' that I don't recognize.,Billing,Medium,Unidentifiable line item on invoice
+I requested a payment extension but was still charged a penalty.,Billing,Medium,Penalty charged despite approved extension
+How do I update my notification preferences?,General Inquiry,Medium,Notification settings customization inquiry
+The Chrome app crashes whenever I try to open a file. Running version 10.,Technical Support,High,Application crash preventing normal usage
+I can't share my screen on the mobile app. The option is missing.,Technical Support,Medium,Screen share feature missing from application
+What are your customer support hours? I need to reach someone urgently.,General Inquiry,Medium,Support availability hours inquiry
+Does your Enterprise plan offer API access? We need it for development.,Sales / Plan Upgrade,Low,API access availability in plan inquiry
+My team admin removed me accidentally. Please restore my access.,Account Management,High,Accidental access removal by team admin
+I cancelled my subscription 7 days ago but was still charged.,Billing,Medium,Charge applied after cancellation
+I want to add 3 more user seats to our current business account.,Sales / Plan Upgrade,Medium,Additional user seats requested for business plan
+Your service has been down for 30 hours and nobody is communicating.,Complaints & Escalations,Medium,Prolonged outage with no communication from provider
+I want to upgrade my storage from 100 GB to 200 GB.,Sales / Plan Upgrade,Medium,Storage capacity upgrade request
+What's the maximum file size I can upload to email?,General Inquiry,Low,File upload size limit inquiry
+Can I create a sub-account for my team member under my plan?,Account Management,Medium,Sub-account creation request for team member
+I set up smart TV but it won't appear in the Zoom dashboard.,Technical Support,Medium,Device not detected after setup
+File uploads to platform fail after reaching 90%.,Technical Support,Low,Upload failure at specific completion threshold
+I'd like to upgrade from the Professional plan to the Business plan. What's the cost?,Sales / Plan Upgrade,Low,Customer inquiring about plan upgrade pricing
+The early termination fee of $149.99 charged seems incorrect.,Billing,Medium,Early termination fee dispute
+The auto-save feature stopped working after I updated the app.,Technical Support,Medium,Feature malfunction after user action
+Does the Enterprise plan include auto-save? I need it for my workflow.,Sales / Plan Upgrade,Medium,Feature availability inquiry before plan decision
+I cancelled my subscription 30 days ago but was still charged.,Billing,Low,Charge applied after cancellation
+I can't receive emails on Outlook. Sending works fine.,Technical Support,Medium,Email receive-only failure
+The early termination fee of $99.99 charged seems incorrect.,Billing,High,Early termination fee dispute
+I was charged for backup which I never subscribed to.,Billing,Medium,Charge for unsubscribed service or feature
+My refund of $29.99 was promised 5 days ago but hasn't arrived.,Billing,High,Delayed refund not received in expected timeframe
+The Zoom search function returns no results for anything I type.,Technical Support,Medium,Search feature returning empty results
+I need to update my company name on the account profile.,Account Management,Low,Company name update required on profile
+My account was merged with someone else's by mistake.,Account Management,Low,Erroneous account merge requiring separation
+Your dashboard downtime cost me $49.99 in lost business this week.,Complaints & Escalations,Medium,Financial loss attributed to service downtime
+Internet is showing error code ERR_404 on my desktop PC.,Technical Support,Medium,Error code blocking service access
+I set up tablet but it won't appear in the Safari dashboard.,Technical Support,High,Device not detected after setup
+I need to add the priority support add-on to my existing subscription.,Sales / Plan Upgrade,Low,Add-on feature purchase request
+Can I use streaming offline without an internet connection?,General Inquiry,Low,Offline functionality availability inquiry
+What happens to my data if I cancel after upgrading?,Sales / Plan Upgrade,High,Data retention policy inquiry after cancellation
+My VPN router shows connected but no pages load.,Technical Support,Low,Connected status with no actual internet access
+What's the maximum file size I can upload to cloud storage?,General Inquiry,High,File upload size limit inquiry
+I'm interested in the reseller program. How do I get started?,Sales / Plan Upgrade,Low,Reseller partnership inquiry
+There's an unknown charge of $49.99 on my account this month.,Billing,Medium,Unrecognized charge requiring investigation
+I can't verify my identity with the documents I submitted.,Account Management,Low,Identity verification failure with submitted documents
+I need an itemized breakdown of my $9.99 invoice from August.,Billing,Medium,Itemized invoice breakdown requested
+My dashboard speed is much slower than the promised 500 Mbps.,Technical Support,Low,Service speed below contracted level
+The portal desktop app won't install on Windows 2.3.,Technical Support,Low,Software installation failure on specific OS version
+I have two accounts and want to keep only one with all the data.,Account Management,Medium,Account consolidation with data merge request
+I need to add the analytics dashboard add-on to my existing subscription.,Sales / Plan Upgrade,Low,Add-on feature purchase request
+I was charged for notifications which I never subscribed to.,Billing,High,Charge for unsubscribed service or feature
+I want to upgrade my storage from 200 GB to 500 GB.,Sales / Plan Upgrade,Low,Storage capacity upgrade request
+I applied a promo code but the discount wasn't applied to my bill.,Billing,Low,Promotional discount not reflected in billing
+My portal router shows connected but no pages load.,Technical Support,High,Connected status with no actual internet access
+Your platform downtime cost me $149.99 in lost business this week.,Complaints & Escalations,High,Financial loss attributed to service downtime
+I need to add another admin user to our company account.,Account Management,High,Additional admin user access requested
+Can I use VoIP offline without an internet connection?,General Inquiry,High,Offline functionality availability inquiry
+I need written confirmation that my account data will be deleted.,Account Management,High,Data deletion confirmation document request
+I want to set up email alerts for any login to my account.,Account Management,High,Login alert notification setup request
+I need to add an alternate admin contact to the account.,Account Management,Medium,Alternate admin contact addition requested
+My autopay failed but I was charged a late fee anyway.,Billing,High,Late fee applied despite autopay setup
+I want to enable dark mode as the default for my account.,Account Management,Medium,Dark mode as default account preference request
+Why did my bill increase from $14.99 to $149.99 without notice?,Billing,Medium,Unexplained price increase on monthly bill
+My account shows the wrong subscription plan despite upgrading.,Account Management,Medium,Subscription plan not reflecting recent upgrade
+I need to dispute a charge of $29.99 from August.,Billing,Medium,Billing dispute for specific charge
+I'd like to upgrade from the Standard plan to the Premium plan. What's the cost?,Sales / Plan Upgrade,Low,Customer inquiring about plan upgrade pricing
+Is dashboard available in my country?,General Inquiry,Low,Service geographic availability inquiry
+What is your service uptime guarantee?,General Inquiry,Medium,Service level agreement uptime inquiry
+I need to add a backup phone number to my account.,Account Management,High,Backup phone number addition requested
+The backup button is greyed out and unclickable in Outlook.,Technical Support,High,UI element unresponsive in application
+Can I keep my current number when upgrading to the premium plan?,Sales / Plan Upgrade,Low,Number portability inquiry during plan upgrade
+I want to upgrade before the end of the month. Is there a deadline?,Sales / Plan Upgrade,Low,Upgrade timing inquiry for promotional purposes
+My issue was escalated but the escalation team never contacted me.,Complaints & Escalations,Medium,Escalation team failed to follow up
+I want to enable biometric login for my account.,Account Management,Low,Biometric authentication setup request
+Does your Business plan offer API access? We need it for development.,Sales / Plan Upgrade,Low,API access availability in plan inquiry
+I've sent 3 emails with no response in 3 days. This is unacceptable.,Complaints & Escalations,High,Multiple unanswered support communications
+Is internet available in my country?,General Inquiry,Low,Service geographic availability inquiry
+Can I get a demo of the enterprise features before committing?,Sales / Plan Upgrade,Low,Enterprise plan demo request before purchase
+I need to update my date of birth on my profile.,Account Management,Medium,Date of birth correction requested on profile
+I've sent 100 emails with no response in 30 days. This is unacceptable.,Complaints & Escalations,High,Multiple unanswered support communications
+I need receipts for the past 20 months for expense reporting.,Billing,High,Historical receipts required for accounting
+My account's audit log is missing entries from last week.,Account Management,Medium,Missing entries in account audit log
+Does the Plus plan include sync? I need it for my workflow.,Sales / Plan Upgrade,Medium,Feature availability inquiry before plan decision
+My credit balance of $149.99 hasn't been applied to this month's bill.,Billing,Low,Existing credit not applied to invoice
+I want to upgrade my storage from 100 GB to 1000 GB.,Sales / Plan Upgrade,Medium,Storage capacity upgrade request
+Can I get a quote for 100 enterprise licenses for our company?,Sales / Plan Upgrade,Medium,Enterprise license quote request
+My internet router shows connected but no pages load.,Technical Support,Low,Connected status with no actual internet access
+My credit balance of $99.99 hasn't been applied to this month's bill.,Billing,Low,Existing credit not applied to invoice
+Where can I find the user manual for smartphone?,General Inquiry,Low,User manual or documentation request
+I want to upgrade my storage from 50 GB to 200 GB.,Sales / Plan Upgrade,Medium,Storage capacity upgrade request
+Can I get a quote for 15 enterprise licenses for our company?,Sales / Plan Upgrade,Low,Enterprise license quote request
+What's the maximum file size I can upload to VoIP?,General Inquiry,Low,File upload size limit inquiry
+Your service has been down for 5 hours and nobody is communicating.,Complaints & Escalations,Medium,Prolonged outage with no communication from provider
+My VPN speed is much slower than the promised 200 Mbps.,Technical Support,Medium,Service speed below contracted level
+I'd like to upgrade from the Standard plan to the Business plan. What's the cost?,Sales / Plan Upgrade,Low,Customer inquiring about plan upgrade pricing
+Does your Premium plan offer API access? We need it for development.,Sales / Plan Upgrade,Medium,API access availability in plan inquiry
+Is VPN available in my country?,General Inquiry,Low,Service geographic availability inquiry
+The backup feature stopped working after I changed settings.,Technical Support,High,Feature malfunction after user action
+Your VoIP downtime cost me $149.99 in lost business this week.,Complaints & Escalations,Medium,Financial loss attributed to service downtime
+I need to change the primary account holder's name.,Account Management,High,Primary account holder name change required
+I've been waiting 7 days for a resolution and no one has followed up.,Complaints & Escalations,Medium,Extended wait time with no follow-up on ticket
+I set up SSO but can't log in through my company's portal.,Account Management,High,Single sign-on configuration issue
+I want to close my account and transfer the data to my colleague.,Account Management,Medium,Account closure with data transfer request
+I overpaid by $49.99 last month. Can I get a credit or refund?,Billing,High,Overpayment requiring credit or refund
+Your portal downtime cost me $49.99 in lost business this week.,Complaints & Escalations,High,Financial loss attributed to service downtime
+The currency on my invoice is wrong. I should be billed in USD.,Billing,Medium,Incorrect billing currency on invoice
+My bill shows $29.99 but my plan is only $14.99 per month.,Billing,High,Bill amount exceeds contracted plan price
+I need to whitelist our company IP address for account access.,Account Management,Medium,IP whitelist configuration for company account
+My router won't turn on after the battery drained completely.,Technical Support,High,Device power failure after battery depletion
+My router's yellow light keeps blinking. No internet access.,Technical Support,High,Router status light indicating connectivity issue
+I want to enable advanced security settings on my account.,Account Management,Low,Advanced security settings activation request
+I need to dispute a charge of $49.99 from July.,Billing,High,Billing dispute for specific charge
+The same issue keeps recurring every 5 weeks. Nothing is fixed permanently.,Complaints & Escalations,Low,Recurring issue with no permanent resolution
+Your service has been down for 2 hours and nobody is communicating.,Complaints & Escalations,High,Prolonged outage with no communication from provider
+Can I split billing between two departments for our company account?,Sales / Plan Upgrade,Low,Split billing arrangement inquiry
+I feel discriminated against by how my complaint was handled.,Complaints & Escalations,High,Complaint handling fairness concern
+I locked myself out after too many failed login attempts.,Account Management,Low,Account locked due to failed login attempts
+I want to speak directly to a manager regarding my account issue.,Complaints & Escalations,Medium,Escalation to management requested
+Can I use portal offline without an internet connection?,General Inquiry,Low,Offline functionality availability inquiry
+I set up router but it won't appear in the Teams dashboard.,Technical Support,High,Device not detected after setup
+The early termination fee of $49.99 charged seems incorrect.,Billing,Low,Early termination fee dispute
+The Chrome dark mode setting resets every time I reopen the app.,Technical Support,High,User preference not persisting across sessions
+What's the maximum file size I can upload to dashboard?,General Inquiry,Low,File upload size limit inquiry
+I can't receive emails on Zoom. Sending works fine.,Technical Support,High,Email receive-only failure
+Why did my bill increase from $14.99 to $29.99 without notice?,Billing,Medium,Unexplained price increase on monthly bill
+I need to change my phone number for two-factor authentication.,Account Management,Low,2FA phone number update required
+My data usage jumped to 50 GB overnight with no explanation.,Technical Support,High,Unexplained high data consumption
+My account history shows transactions I didn't authorize.,Account Management,High,Unauthorized transactions in account history
+I want to add 5 more user seats to our current business account.,Sales / Plan Upgrade,Low,Additional user seats requested for business plan
+My credit balance of $49.99 hasn't been applied to this month's bill.,Billing,High,Existing credit not applied to invoice
+The dashboard desktop app won't install on Windows 3.1.,Technical Support,Low,Software installation failure on specific OS version
+We're a startup of 100 people. Which plan would you recommend?,Sales / Plan Upgrade,Medium,Plan recommendation requested for small team
+The VPN mobile app is stuck on the loading screen.,Technical Support,High,Mobile app loading indefinitely
+I can't connect to cloud storage from my modem. Other devices work fine.,Technical Support,Medium,Single-device connectivity failure
+Is portal available in my country?,General Inquiry,Low,Service geographic availability inquiry
+I'm getting SSL certificate errors when visiting the portal.,Technical Support,High,SSL/TLS certificate validation error
+Does your service comply with HIPAA regulations?,General Inquiry,Low,HIPAA compliance status inquiry
+Can I downgrade from Standard to Premium without losing my data?,Sales / Plan Upgrade,Low,Plan downgrade inquiry with data retention concern
+I never received my invoice for March. Please resend it.,Billing,High,Missing invoice for billing period
+I need a revised invoice with our company's GST/VAT number added.,Billing,Low,Invoice requires tax information update
+I've sent 3 emails with no response in 7 days. This is unacceptable.,Complaints & Escalations,Medium,Multiple unanswered support communications
+What's the maximum file size I can upload to internet?,General Inquiry,Low,File upload size limit inquiry
+I need to reset my PIN for the Safari app.,Account Management,Medium,PIN reset request for application
+I forgot my password and the reset link keeps saying it's expired.,Account Management,Low,Password reset link not functioning
+My profile completeness score shows 100% but features are locked.,Account Management,Medium,Feature lock despite complete profile status
+I was given incorrect information by your support team about refund timeline.,Complaints & Escalations,Medium,Incorrect information provided by support agent
+Can I downgrade from Standard to Business without data loss?,Sales / Plan Upgrade,Low,Plan downgrade inquiry with data retention concern
+What is your data privacy policy regarding user information?,General Inquiry,Medium,Data privacy and GDPR policy inquiry
+Video calls on Zoom keep freezing every few seconds.,Technical Support,Medium,Video streaming quality issue
+Can I downgrade from Standard to Professional without losing my data?,Sales / Plan Upgrade,Low,Plan downgrade inquiry with data retention concern
+My smart TV keeps disconnecting every 15 minutes. I've restarted it 4 times.,Technical Support,Medium,Connectivity issue causing repeated service interruption
+I can't connect to portal from my tablet. Other devices work fine.,Technical Support,Medium,Single-device connectivity failure
+My smartphone is extremely slow after the latest firmware update.,Technical Support,Medium,Performance degradation post-update
+My access was downgraded after our billing issue was resolved.,Account Management,High,Account access level not restored after billing fix
+My refund of $19.99 was promised 3 days ago but hasn't arrived.,Billing,High,Delayed refund not received in expected timeframe
+I need to change the email notifications frequency for my account.,Account Management,Medium,Email notification frequency preference update
+Can I use email offline without an internet connection?,General Inquiry,Medium,Offline functionality availability inquiry
+Is email available in my country?,General Inquiry,Low,Service geographic availability inquiry
+Does the premium plan support integration with Zapier?,Sales / Plan Upgrade,Low,Third-party integration availability inquiry
+I need to dispute a charge of $149.99 from March.,Billing,Medium,Billing dispute for specific charge
+My display name shows incorrectly across all platforms.,Account Management,Medium,Display name discrepancy across services
+I've sent 3 emails with no response in 5 days. This is unacceptable.,Complaints & Escalations,High,Multiple unanswered support communications
+Is there a community forum or user group I can join?,General Inquiry,Medium,Community resource availability inquiry
+Why did my bill increase from $9.99 to $49.99 without notice?,Billing,Medium,Unexplained price increase on monthly bill
+This is the 50th time I'm contacting support for the same issue with no resolution.,Complaints & Escalations,High,Repeat contact for unresolved issue requiring escalation
+I'm getting a 'NullPointerException' error every time I launch the desktop client.,Technical Support,High,Recurring application error on launch
+I never received my invoice for February. Please resend it.,Billing,Medium,Missing invoice for billing period
+What's the maximum file size I can upload to VPN?,General Inquiry,Medium,File upload size limit inquiry
+My account was suspended without any notification or reason.,Account Management,Medium,Account suspended without prior notice
+I cannot log in to my account on desktop PC. The password is correct.,Account Management,High,Login failure despite correct credentials
+The ticket I raised 30 days ago was closed without any resolution.,Complaints & Escalations,High,Support ticket closed without resolution
+I was charged $99.99 twice this month. Please refund the extra amount.,Billing,Low,Duplicate charge detected on account
+My smartphone microphone isn't working during mobile app calls.,Technical Support,High,Microphone not functional during calls
+Can I use dashboard offline without an internet connection?,General Inquiry,Low,Offline functionality availability inquiry
+I need to dispute a charge of $149.99 from May.,Billing,Medium,Billing dispute for specific charge
+My modem keeps disconnecting every 15 minutes. I've restarted it 3 times.,Technical Support,High,Connectivity issue causing repeated service interruption
+Where can I find the user manual for modem?,General Inquiry,Medium,User manual or documentation request
+I want to change my account's primary language to Spanish.,Account Management,Medium,Primary language preference change on account
+I want to opt out of all marketing emails from my account settings.,Account Management,Medium,Marketing email opt-out preference update
+What's the volume discount for 20+ licenses for our organization?,Sales / Plan Upgrade,Low,Volume licensing discount inquiry
+My refund of $29.99 was promised 3 days ago but hasn't arrived.,Billing,Medium,Delayed refund not received in expected timeframe
+My router's amber light keeps blinking. No internet access.,Technical Support,High,Router status light indicating connectivity issue
+Do you offer a free trial for the Business plan before purchasing?,Sales / Plan Upgrade,Medium,Free trial availability inquiry for paid plan
+We're a startup of 3 people. Which plan would you recommend?,Sales / Plan Upgrade,High,Plan recommendation requested for small team
+There's an unknown charge of $99.99 on my account this month.,Billing,Medium,Unrecognized charge requiring investigation
+My subscription shows as free tier even after paying.,Account Management,Medium,Paid subscription not reflected on account
+I can't connect to email from my laptop. Other devices work fine.,Technical Support,High,Single-device connectivity failure
+I was given incorrect information by your support team about plan features.,Complaints & Escalations,High,Incorrect information provided by support agent
+I want to add 15 more user seats to our current business account.,Sales / Plan Upgrade,Low,Additional user seats requested for business plan
+Two-factor authentication texts are not arriving on my number.,Technical Support,High,2FA SMS delivery failure
+Does the premium plan support integration with Google Workspace?,Sales / Plan Upgrade,Medium,Third-party integration availability inquiry
+My two-step verification keeps failing with a valid code.,Account Management,Low,Valid 2FA code being rejected by system
+My bill shows $99.99 but my plan is only $14.99 per month.,Billing,Low,Bill amount exceeds contracted plan price
+My password manager saved the wrong password. Can you reset it?,Account Management,High,Password reset due to password manager conflict
+My data usage jumped to 200 GB overnight with no explanation.,Technical Support,High,Unexplained high data consumption
+Where can I find the user manual for set-top box?,General Inquiry,Low,User manual or documentation request
+I need an itemized breakdown of my $49.99 invoice from May.,Billing,Medium,Itemized invoice breakdown requested
+My platform router shows connected but no pages load.,Technical Support,High,Connected status with no actual internet access
+My corporate SSO credentials don't work for the mobile app.,Account Management,Medium,SSO credentials not working on mobile application
+Can you help me recover my account? I no longer have access to my old email.,Account Management,Low,Account recovery with lost email access
+I need to add the white-label add-on to my existing subscription.,Sales / Plan Upgrade,High,Add-on feature purchase request
+Is cloud storage available in my country?,General Inquiry,Low,Service geographic availability inquiry
+The same issue keeps recurring every 10 weeks. Nothing is fixed permanently.,Complaints & Escalations,High,Recurring issue with no permanent resolution
+Does your Plus plan offer API access? We need it for development.,Sales / Plan Upgrade,Medium,API access availability in plan inquiry
+I need to dispute a charge of $49.99 from April.,Billing,High,Billing dispute for specific charge
+I need to revoke API access for a former team member.,Account Management,High,API access revocation for departed team member
+I need to update my email address from oldemail@example.com to newemail@example.com.,Account Management,Medium,Email address update required on account
+The notifications button is greyed out and unclickable in the desktop client.,Technical Support,Medium,UI element unresponsive in application
+I want to set up parental controls on my account.,Account Management,High,Parental control configuration request
+I was charged $19.99 twice this month. Please refund the extra amount.,Billing,Medium,Duplicate charge detected on account
+I've sent 2 emails with no response in 10 days. This is unacceptable.,Complaints & Escalations,High,Multiple unanswered support communications
+Your VPN downtime cost me $99.99 in lost business this week.,Complaints & Escalations,Medium,Financial loss attributed to service downtime
+Can I downgrade from Starter to Business without losing my data?,Sales / Plan Upgrade,Low,Plan downgrade inquiry with data retention concern
+I can't connect to email from my smart TV. Other devices work fine.,Technical Support,Medium,Single-device connectivity failure
+This is the 5th time I'm contacting support for the same issue with no resolution.,Complaints & Escalations,High,Repeat contact for unresolved issue requiring escalation
+I need to update my email address from user.old@company.com to user.new@company.com.,Account Management,Medium,Email address update required on account
+VoIP is showing error code ERR_001 on my router.,Technical Support,High,Error code blocking service access
+The streaming mobile app is stuck on the loading screen.,Technical Support,Medium,Mobile app loading indefinitely
+I need receipts for the past 5 months for expense reporting.,Billing,Medium,Historical receipts required for accounting
+I'd like to upgrade from the Basic plan to the Standard plan. What's the cost?,Sales / Plan Upgrade,Low,Customer inquiring about plan upgrade pricing
+I set up laptop but it won't appear in the Teams dashboard.,Technical Support,High,Device not detected after setup
+I can't connect to platform from my router. Other devices work fine.,Technical Support,Medium,Single-device connectivity failure
+I'm getting a 'Token expired' error every time I launch the mobile app.,Technical Support,High,Recurring application error on launch
+I cancelled my subscription 14 days ago but was still charged.,Billing,Medium,Charge applied after cancellation
+Can I get a quote for 50 enterprise licenses for our company?,Sales / Plan Upgrade,Medium,Enterprise license quote request
+My bill shows $19.99 but my plan is only $9.99 per month.,Billing,Medium,Bill amount exceeds contracted plan price
+What's the volume discount for 100+ licenses for our organization?,Sales / Plan Upgrade,Medium,Volume licensing discount inquiry
+Your service outage caused me to lose important client data.,Complaints & Escalations,High,Service outage resulting in data loss
+Your agent was extremely rude during my last call and didn't help me.,Complaints & Escalations,High,Agent behavior complaint requiring review
+I was charged $149.99 twice this month. Please refund the extra amount.,Billing,High,Duplicate charge detected on account
+Does the premium plan support integration with Jira?,Sales / Plan Upgrade,Low,Third-party integration availability inquiry
+My smart speaker keeps disconnecting every 5 minutes. I've restarted it 5 times.,Technical Support,High,Connectivity issue causing repeated service interruption
+My subscription benefits aren't showing on my account dashboard.,Account Management,Medium,Subscription benefits not visible on dashboard
+I'd like to upgrade from the Professional plan to the Premium plan. What's the cost?,Sales / Plan Upgrade,Medium,Customer inquiring about plan upgrade pricing
+The Chrome search function returns no results for anything I type.,Technical Support,High,Search feature returning empty results
+My refund of $9.99 was promised 5 days ago but hasn't arrived.,Billing,Medium,Delayed refund not received in expected timeframe
+I want to download a copy of all data stored in my account.,Account Management,High,Full account data download request
+Where can I find the user manual for tablet?,General Inquiry,High,User manual or documentation request
+I need an itemized breakdown of my $19.99 invoice from May.,Billing,Medium,Itemized invoice breakdown requested
+Your service has been down for 3 hours and nobody is communicating.,Complaints & Escalations,Medium,Prolonged outage with no communication from provider
+I've been waiting 3 days for a resolution and no one has followed up.,Complaints & Escalations,High,Extended wait time with no follow-up on ticket
+Can you help me find my account? I don't remember the email I used.,Account Management,Medium,Account lookup with forgotten registration email
+My refund of $149.99 was promised 5 days ago but hasn't arrived.,Billing,High,Delayed refund not received in expected timeframe

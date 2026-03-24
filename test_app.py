@@ -1,5 +1,5 @@
 import unittest
-from app import clean_text, predict
+from app import clean_text, predict_nb
 import os
 
 class TestCustomerSupportClassifier(unittest.TestCase):
@@ -10,15 +10,15 @@ class TestCustomerSupportClassifier(unittest.TestCase):
         self.assertTrue(os.path.exists("model.pkl"))
 
     def test_predict_technical_support(self):
-        category, priority = predict("my internet keeps disconnecting")
+        category, priority, prob = predict_nb("my internet keeps disconnecting")
         self.assertEqual(category, "Technical Support")
 
     def test_predict_billing(self):
-        category, priority = predict("I was charged twice yesterday")
+        category, priority, prob = predict_nb("I was charged twice yesterday")
         self.assertEqual(category, "Billing")
 
     def test_predict_account_management(self):
-        category, priority = predict("forgot my password")
+        category, priority, prob = predict_nb("forgot my password")
         self.assertEqual(category, "Account Management")
 
 if __name__ == '__main__':
