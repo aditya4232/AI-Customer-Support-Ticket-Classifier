@@ -178,7 +178,7 @@ with st.sidebar:
     st.markdown("## ⚙️ Model Settings")
     model_choice = st.selectbox(
         "Select Inference Engine",
-        ["TF-IDF + Naive Bayes", "Neural Network (Embedding + Dense)", "LSTM (Bidirectional)"],
+        ["TF-IDF + Naive Bayes"],
         index=0,
     )
     st.markdown("---")
@@ -195,13 +195,11 @@ with st.sidebar:
 
 # ─── Hero header ────────────────────────────────────────────
 st.markdown("<div class='hero-title'>🎫 AI Support Ticket Classifier</div>", unsafe_allow_html=True)
-st.markdown("<div class='hero-sub'>Multi-model telecom ticket routing engine · TF-IDF · Neural Network · LSTM</div>", unsafe_allow_html=True)
+st.markdown("<div class='hero-sub'>Telecom ticket routing engine powered by TF-IDF + Naive Bayes</div>", unsafe_allow_html=True)
 
 # ─── Model info badge ───────────────────────────────────────
 model_meta = {
     "TF-IDF + Naive Bayes":             ("🔵 Naive Bayes",  "#1d4ed8", "Fast & interpretable baseline using TF-IDF bigrams."),
-    "Neural Network (Embedding + Dense)":("🟣 Neural Net",   "#7c3aed", "Trainable word embeddings + dense layers."),
-    "LSTM (Bidirectional)":              ("🟠 Bi-LSTM",      "#c2410c", "Bidirectional LSTM capturing sequential context."),
 }
 label, color, desc = model_meta[model_choice]
 st.markdown(f"""
@@ -229,24 +227,11 @@ with col1:
         else:
             with st.spinner(f"Running {model_choice} inference…"):
                 try:
-                    # check model files exist before loading
                     if model_choice == "TF-IDF + Naive Bayes":
                         if not os.path.exists("model.pkl"):
                             st.error("model.pkl not found. Run `python train_advanced.py` first.")
                             st.stop()
                         category, priority, prob = predict_nb(ticket_text)
-
-                    elif model_choice == "Neural Network (Embedding + Dense)":
-                        if not os.path.exists("nn_model/category_model.h5"):
-                            st.error("nn_model/ not found. Run `python train_advanced.py` first.")
-                            st.stop()
-                        category, priority, prob = predict_nn(ticket_text)
-
-                    else:  # LSTM
-                        if not os.path.exists("lstm_model/category_model.h5"):
-                            st.error("lstm_model/ not found. Run `python train_advanced.py` first.")
-                            st.stop()
-                        category, priority, prob = predict_lstm(ticket_text)
 
                     reason = get_routing_reason(category)
                     p_icon = get_priority_color(priority)
