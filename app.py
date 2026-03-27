@@ -1,10 +1,11 @@
 """
 app.py  –  AI Customer Support Ticket Classifier
 =================================================
-Streamlit UI with three selectable inference engines:
-  • TF-IDF + Naive Bayes
-  • Neural Network (Embedding + Dense)
-  • LSTM (Bidirectional)
+Streamlit UI backed by scikit-learn TF-IDF + SGD.
+
+Inference mode (sidebar toggle):
+  • Direct  — loads model.joblib locally (no extra server needed)
+  • API     — calls FastAPI backend at http://localhost:8000/predict
 """
 import os
 import re
@@ -12,6 +13,8 @@ import pickle
 import numpy as np
 import pandas as pd
 import streamlit as st
+import joblib
+import requests as _requests          # aliased to avoid clash with st
 
 # ─── Page config ────────────────────────────────────────────
 st.set_page_config(
@@ -76,6 +79,22 @@ def load_nb_model():
 def load_nb_label_encoders():
     with open("label_encoders.pkl", "rb") as f:
         return pickle.load(f)           # (le_cat, le_pri)
+
+# ── API inference helper ────────────────────────────────────────
+def predict_via_api(text: str) -> tuple:
+    """Call the FastAPI backend and return (category, priority, confidence)."""
+    try:
+        resp = _requests.post(
+            "http://localhost:8000/predict",
+            json={"text": text},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        return data["category"], data["priority"], data["confidence"]
+    except Exception as exc:
+        st.error(f"API inference failed: {exc}")
+        raise
 
 @st.cache_resource(show_spinner=False)
 def load_keras_assets():
@@ -181,6 +200,13 @@ with st.sidebar:
         ["TF-IDF + Naive Bayes"],
         index=0,
     )
+    # ── Inference mode toggle ────────────────────────────────────────
+    inference_mode = st.selectbox(
+        "Inference Mode",
+        ["Direct (local)", "API (FastAPI)"],
+        index=0,
+        help="Choose whether to run inference locally (loads model.pkl) or call the FastAPI backend.",
+    )
     st.markdown("---")
     st.markdown("### 📊 Dataset Overview")
     st.metric("Total Tickets", len(df))
@@ -199,14 +225,16 @@ st.markdown("<div class='hero-sub'>Telecom ticket routing engine powered by TF-I
 
 # ─── Model info badge ───────────────────────────────────────
 model_meta = {
-    "TF-IDF + Naive Bayes":             ("🔵 Naive Bayes",  "#1d4ed8", "Fast & interpretable baseline using TF-IDF bigrams."),
+    "TF-IDF + Naive Bayes": ("🔵 TF-IDF + SGD", "#1d4ed8", "Fast & interpretable baseline using TF-IDF bigrams."),
 }
 label, color, desc = model_meta[model_choice]
+_mode_badge = "🌐 API" if inference_mode == "API (FastAPI)" else "💾 Direct"
 st.markdown(f"""
 <div style='background:{color}22;border:1px solid {color}55;
             border-radius:10px;padding:0.6rem 1rem;margin-bottom:1rem;'>
   <strong style='color:{color}'>{label}</strong>
   &nbsp;·&nbsp;<span style='color:#d1d5db'>{desc}</span>
+  &nbsp;&nbsp;<span style='color:#9ca3af;font-size:0.8rem;'>{_mode_badge}</span>
 </div>
 """, unsafe_allow_html=True)
 
@@ -225,18 +253,30 @@ with col1:
         if not ticket_text.strip():
             st.error("Please enter a valid ticket description.")
         else:
-            with st.spinner(f"Running {model_choice} inference…"):
+            _mode_label = inference_mode  # captured from sidebar selectbox
+            with st.spinner(f"Running inference via {_mode_label}…"):
                 try:
-                    if model_choice == "TF-IDF + Naive Bayes":
+                    if _mode_label == "API (FastAPI)":
+                        # ── Call FastAPI backend ─────────────────────────────
+                        category, priority, prob = predict_via_api(ticket_text)
+                        reason = get_routing_reason(category)
+                    else:
+                        # ── Direct local inference ───────────────────────────
                         if not os.path.exists("model.pkl"):
                             st.error("model.pkl not found. Run `python train_advanced.py` first.")
                             st.stop()
                         category, priority, prob = predict_nb(ticket_text)
+                        reason = get_routing_reason(category)
 
-                    reason = get_routing_reason(category)
                     p_icon = get_priority_color(priority)
 
                     st.success("✅  Ticket classified successfully!")
+
+                    # ── Inference mode indicator ─────────────────────────────
+                    if _mode_label == "API (FastAPI)":
+                        st.caption("🌐 Result served by FastAPI backend at `http://localhost:8000`")
+                    else:
+                        st.caption("💾 Result served by local joblib model")
 
                     # ─ Metrics row
                     m1, m2, m3 = st.columns(3)
@@ -260,7 +300,10 @@ with col1:
 
                 except Exception as e:
                     st.error(f"Inference failed: {e}")
-                    st.info("Tip: Make sure you have run `python train_advanced.py` to build all models.")
+                    if _mode_label == "API (FastAPI)":
+                        st.info("Tip: Make sure the FastAPI server is running — `uvicorn backend.main:app --reload --port 8000`")
+                    else:
+                        st.info("Tip: Make sure you have run `python train_model.py` to build model.pkl / model.joblib.")
 
 
 with col2:
@@ -289,4 +332,4 @@ with col2:
 
 # ─── Footer ─────────────────────────────────────────────────
 st.markdown("---")
-st.caption("Built with TensorFlow · Keras · scikit-learn · Streamlit  |  Dataset: database-tele-data(telecom_cc).csv")
+st.caption("Built with scikit-learn · FastAPI · Streamlit  |  Dataset: database-tele-data(telecom_cc).csv")
